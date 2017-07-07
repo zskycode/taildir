@@ -4,23 +4,23 @@ This is an extension of flume source that implements windows support for inode p
 support for different directory traversal, and processing of log4j log files. 
 Here I have implemented a okhttp sink, and you should modify some logical code so that you can use it, and enjoy your use.
 
-#Compilation
+# Compilation
 
 The project is maintained by Maven.
 
-#Installation instructions
+# Installation instructions
 
 After your compilation, you should ship the target jar taildir-1.0.0.jar to the $FLUME_HOME/flume-ng/lib/. Then you can edit flume.conf to use the Taildir Source.
 
 Now follows a brief overview of Taildir Source with usage instructions.
 
-Sources
+# Sources
 
 Taildir Source
 
 The 'Taildir Source' is extended from original flume 1.7.0's Taildir Source, so you can use other properties just like using Taildir Source.
 
-Example config:
+# Example config:
 
 agent1.sources=r1
 
